@@ -1,0 +1,5 @@
+.vscode/
+export_*
+.DS_Store
+strava-export-organizer
+dist/
