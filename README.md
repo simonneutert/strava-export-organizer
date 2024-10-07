@@ -1,6 +1,6 @@
 # Strava Export Organizer
 
-The purpose of this project is to organize your activities data in your Strava export. 
+The purpose of this project is to organize your activities data in your Strava export.
 
 After running this tool you should have your activity files sorted by the type of activity and the year it was performed in. 
 
@@ -17,6 +17,20 @@ The script will create a directory tree like this:
 # and so on...
 ```
 
+#### Web/Browser/Docker version 🚀
+
+https://github.com/simonneutert/strava-export-organizer-web
+
+### Supported Languages
+
+- en
+- de
+
+### Supported Operating Systems
+
+- Linux 🐧
+- MacOS 🍎
+
 ## Usage
 
 - Request your Strava export from [Strava](https://www.strava.com/).
@@ -32,11 +46,6 @@ The script will create a directory tree like this:
   - `$ ./strava_export_organizer en`
 - A new folder will be created called `export_mapped/` within your export containing the organized activities.
 - Enjoy the warm and fuzzy feeling of a well-organized Strava export 🧘.
-
-## Supported OS
-
-- Linux 🐧
-- MacOS 🍎
 
 ## Add your language? Help developing?
 
