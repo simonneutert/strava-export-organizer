@@ -35,7 +35,7 @@ https://github.com/simonneutert/strava-export-organizer-web
 
 - Request your Strava export from [Strava](https://www.strava.com/).
 - Unzip the downloaded file.
-- Download this program, for your platform and OS.
+- Download this program, for your platform and OS. Stored in an artifact of the last run workflow/action.
 - Copy the binary into/inside the unzipped Strava export folder.
   - Say your unzipped export is here: `home/username/Downloads/my_strava_export/export_1234567890/`.
   - The strava_export_organizer binary should be: 
@@ -46,6 +46,8 @@ https://github.com/simonneutert/strava-export-organizer-web
   - `$ ./strava_export_organizer en`
 - A new folder will be created called `export_mapped/` within your export containing the organized activities.
 - Enjoy the warm and fuzzy feeling of a well-organized Strava export 🧘.
+
+> 😘 _**Or**_ use the [browser/web version](https://github.com/simonneutert/strava-export-organizer-web). Runnable local on your system (via docker) in no time.
 
 ## Add your language? Help developing?
 
