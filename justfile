@@ -1,6 +1,12 @@
 build:
   rm -rf dist; rm -rf export_mapped
-  go test ./... && goreleaser release --snapshot --clean 
+  go test ./... && goreleaser release --snapshot --clean
+
+update-deps:
+  @echo "Updating Go dependencies..."
+  go get -u ./...
+  go mod tidy
+  @echo "Dependencies updated successfully 🚀"
 
 test language:
   @echo "Running tests for {{language}}"
