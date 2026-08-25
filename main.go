@@ -53,7 +53,7 @@ func main() {
 
 	language = os.Args[1]
 
-	csvFile, _ := os.Open(fmt.Sprintf("activities.csv"))
+	csvFile, _ := os.Open("activities.csv")
 	reader := csv.NewReader(csvFile)
 	reader.Comma = ','
 	reader.LazyQuotes = true
@@ -87,7 +87,6 @@ func moveFiles(language string, mappedData []map[string]string, targetDir string
 		fmt.Println(newPath)
 	}
 	fmt.Println("\n\nDone 🚀")
-	return
 }
 
 func mapData(records [][]string, language string) []map[string]string {
